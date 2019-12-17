@@ -5,6 +5,17 @@
  * License: MIT
  */
 
+:root {
+	--body-bg-color: #2E3136;
+	--window-bg-color: #36393E;
+	--body-color: #767676;
+	--body-color-muted: #454545;
+	--date-marker-color: #acf046;
+	--highlight-bg-color: #7289DA;
+	--highlight-border-color: #23272A;
+	--background-light-color: #99AAB5;
+}
+
 body {
 	background: #2e3136;
 	color: rgba(255, 255, 255, 0.7);
