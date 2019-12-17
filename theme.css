@@ -29,6 +29,15 @@ body {
 		sans-serif;
 }
 
+.userlist,
+.chat {
+	border: none;
+}
+
+.chat {
+	scrollbar-color: #23272a #99aab5;
+}
+
 textarea {
 	background: #36393e !important;
 	border: 0 !important;
