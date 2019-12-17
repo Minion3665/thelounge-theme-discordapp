@@ -1,6 +1,6 @@
 {
   "name": "thelounge-theme-discordapp",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A discordapp like theme for thelounge",
   "main": "package.json",
   "thelounge": {
