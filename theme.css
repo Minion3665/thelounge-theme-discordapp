@@ -12,10 +12,10 @@ body {
 	font-family:
 		'Open Sans',
 		'Helvetica Neue',
-		'Helvetica',
-		'Arial',
+		Helvetica,
+		Arial,
 		'Lucida Grande',
-		'sans-serif';
+		sans-serif;
 }
 
 #sidebar .badge {
@@ -49,11 +49,11 @@ body {
 
 #chat .count {
 	background: #2e3136;
-	border-bottom: 1px solid rgba(255,255,255,.04);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.04);
 }
 
 #chat .from {
-	border-right: 1px solid rgba(255,255,255,.04);
+	border-right: 1px solid rgba(255, 255, 255, 0.04);
 }
 
 #chat, #windows .header {
@@ -61,7 +61,7 @@ body {
 	Arial, 'Lucida Grande', sans-serif;
 	font-size: 14px;
 	line-height: 1.1em;
-	color: rgba(255,255,255,.7);
+	color: rgba(255, 255, 255, 0.7);
 }
 
 #windows .header {
@@ -70,11 +70,11 @@ body {
 }
 
 #chat .join .text, #chat .kick .text, #chat .mode .text, #chat .nick .text, #chat .part .text, #chat .quit .text, #chat .topic .text {
-	color: rgba(255,255,255,.5);
+	color: rgba(255, 255, 255, 0.5);
 }
 
 #chat .user-mode:before {
-	color: rgba(255,255,255,.4);
+	color: rgba(255, 255, 255, 0.4);
 	border-bottom: none;
 	text-transform: uppercase;
 	letter-spacing: .08em;
@@ -89,7 +89,7 @@ body {
 #chat .toggle-content {
 	background: rgba(0, 0, 0, 0);
 	border-left: 5px solid #f3f3f3;
-	border-left-color: rgba(243,243,243,.1);
+	border-left-color: rgba(243, 243, 243, 0.1);
 	border-radius: 0px;
 	margin-top: 15px;
 	margin-bottom: 10px;
@@ -106,7 +106,7 @@ body {
 }
 
 #chat.no-colors .sidebar .user {
-	color: rgba(255,255,255,.6) !important;
+	color: rgba(255, 255, 255, 0.6) !important;
 	margin-left: 15px;
 }
 
@@ -154,8 +154,8 @@ body {
 }
 
 #form #input {
-	border: 2px solid rgba(255,255,255,.2);
-	background-color: rgba(255,255,255,.06);
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	background-color: rgba(255, 255, 255, 0.06);
 	border-radius: 3px;
 	padding-left: 9px !important;
 }
@@ -184,7 +184,7 @@ body {
 }
 
 #windows .window h2 {
-	color: rgba(255,255,255,.4);
+	color: rgba(255, 255, 255, 0.4);
 	text-transform: uppercase;
 	letter-spacing: .08em;
 	border: none;
