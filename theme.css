@@ -34,6 +34,10 @@ body {
 	border: none;
 }
 
+.msg.motd {
+	color: #23272a;
+}
+
 .chat {
 	scrollbar-color: #99aab5 #23272a;
 }
