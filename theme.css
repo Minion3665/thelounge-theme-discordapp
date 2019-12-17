@@ -35,7 +35,7 @@ body {
 }
 
 .chat {
-	scrollbar-color: #23272a #99aab5;
+	scrollbar-color: #99aab5 #23272a;
 }
 
 textarea {
