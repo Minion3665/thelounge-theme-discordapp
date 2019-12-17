@@ -29,8 +29,18 @@ body {
 		sans-serif;
 }
 
+textarea {
+	background: #36393e;
+	border: 0;
+	color: white;
+}
+
+textarea::placeholder {
+	color: lightgray;
+}
+
 .user-mode.owner .user {
-	color: goldenrod !important;
+	color: gold !important;
 }
 
 .user-mode.admin .user {
@@ -42,7 +52,7 @@ body {
 }
 
 .user-mode.half-op .user {
-	color: orange !important;
+	color: darkorange !important;
 }
 
 .user-mode.voice .user {
