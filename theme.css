@@ -7,10 +7,15 @@
 
 body {
 	background: #2e3136;
-	color: rgba(255,255,255,.7);
+	color: rgba(255, 255, 255, 0.7);
 	font-size: 15px;
-	font-family: 'Open Sans', 'Helvetica Neue', Helvetica,
-	Arial, 'Lucida Grande', sans-serif;
+	font-family:
+		'Open Sans',
+		'Helvetica Neue',
+		'Helvetica',
+		'Arial',
+		'Lucida Grande',
+		'sans-serif';
 }
 
 #sidebar .badge {
@@ -33,13 +38,13 @@ body {
 	border-left: none;
 }
 
+#sidebar .chan:first-child {
+	color: #7289da;
+}
+
 #sidebar .chan:first-child:hover,
 #sidebar .chan:first-child.active {
 	color: #697ec4;
-}
-
-#sidebar .chan:first-child {
-	color: #7289da;
 }
 
 #chat .count {
