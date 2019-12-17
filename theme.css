@@ -30,27 +30,27 @@ body {
 }
 
 .user-mode.owner .user {
-	color: goldenrod;
+	color: goldenrod !important;
 }
 
 .user-mode.admin .user {
-	color: violet;
+	color: violet !important;
 }
 
 .user-mode.op .user {
-	color: red;
+	color: red !important;
 }
 
 .user-mode.half-op .user {
-	color: orange;
+	color: orange !important;
 }
 
 .user-mode.voice .user {
-	color: cornflowerblue;
+	color: cornflowerblue !important;
 }
 
 .user-mode.normal .user {
-	color: darkgray;
+	color: darkgray !important;
 }
 
 #sidebar .badge {
