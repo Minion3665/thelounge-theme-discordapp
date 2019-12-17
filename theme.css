@@ -6,14 +6,14 @@
  */
 
 :root {
-	--body-bg-color: #2E3136;
-	--window-bg-color: #36393E;
+	--body-bg-color: #2e3136;
+	--window-bg-color: #36393e;
 	--body-color: #767676;
 	--body-color-muted: #454545;
-	--date-marker-color: #7289DA;
-	--highlight-bg-color: #7289DA;
-	--highlight-border-color: #23272A;
-	--background-light-color: #99AAB5;
+	--date-marker-color: #7289da;
+	--highlight-bg-color: #7289da;
+	--highlight-border-color: #23272a;
+	--background-light-color: #99aab5;
 }
 
 body {
@@ -58,13 +58,13 @@ body {
 	color: #697ec4;
 }
 
-#chat .userlist .count {
-	background: #2e3136;
-}
-
 #chat .count {
 	background: #2e3136;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+#chat .userlist .count {
+	background: #2e3136;
 }
 
 #chat .from {
