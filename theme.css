@@ -8,8 +8,8 @@
 :root {
 	--body-bg-color: #2e3136;
 	--window-bg-color: #36393e;
-	--body-color: #767676;
-	--body-color-muted: #454545;
+	--body-color: #aaaaaa;
+	--body-color-muted: #767676;
 	--date-marker-color: #7289da;
 	--highlight-bg-color: #7289da;
 	--highlight-border-color: #23272a;
@@ -27,6 +27,30 @@ body {
 		Arial,
 		'Lucida Grande',
 		sans-serif;
+}
+
+.user-mode.owner .user {
+	color: goldenrod;
+}
+
+.user-mode.admin .user {
+	color: violet;
+}
+
+.user-mode.op .user {
+	color: red;
+}
+
+.user-mode.half-op .user {
+	color: orange;
+}
+
+.user-mode.voice .user {
+	color: cornflowerblue;
+}
+
+.user-mode.normal .user {
+	color: darkgray;
 }
 
 #sidebar .badge {
