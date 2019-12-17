@@ -30,13 +30,13 @@ body {
 }
 
 textarea {
-	background: #36393e;
-	border: 0;
-	color: white;
+	background: #36393e !important;
+	border: 0 !important;
+	color: white !important;
 }
 
 textarea::placeholder {
-	color: lightgray;
+	color: lightgray !important;
 }
 
 .user-mode.owner .user {
