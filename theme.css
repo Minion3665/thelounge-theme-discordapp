@@ -57,15 +57,20 @@ body {
 }
 
 #chat, #windows .header {
-	font-family: 'Open Sans', 'Helvetica Neue', Helvetica,
-	Arial, 'Lucida Grande', sans-serif;
+	font-family:
+		'Open Sans',
+		'Helvetica Neue',
+		Helvetica,
+		Arial,
+		'Lucida Grande',
+		sans-serif;
 	font-size: 14px;
 	line-height: 1.1em;
 	color: rgba(255, 255, 255, 0.7);
 }
 
 #windows .header {
-	letter-spacing: .08em;
+	letter-spacing: 0.08em;
 	color: #fff;
 	border-bottom: 1px solid #303337;
 }
@@ -80,11 +85,11 @@ body {
 	color: rgba(255, 255, 255, 0.5);
 }
 
-#chat .user-mode:before {
+#chat .user-mode::before {
 	color: rgba(255, 255, 255, 0.4);
 	border-bottom: none;
 	text-transform: uppercase;
-	letter-spacing: .08em;
+	letter-spacing: 0.08em;
 	font-weight: 400;
 }
 
@@ -97,7 +102,7 @@ body {
 	background: rgba(0, 0, 0, 0);
 	border-left: 5px solid #f3f3f3;
 	border-left-color: rgba(243, 243, 243, 0.1);
-	border-radius: 0px;
+	border-radius: 0;
 	margin-top: 15px;
 	margin-bottom: 10px;
 }
@@ -125,11 +130,11 @@ body {
 	color: #fff;
 }
 
-#chat .search:-ms-input-placeholder {
+#chat .search::-moz-placeholder {
 	color: #fff;
 }
 
-#chat .search::-moz-placeholder {
+#chat .search:-ms-input-placeholder {
 	color: #fff;
 }
 
@@ -141,8 +146,8 @@ body {
 	display: none;
 }
 
-#windows .window:before,
-#windows .chan:before {
+#windows .window::before,
+#windows .chan::before {
 	display: none;
 }
 
