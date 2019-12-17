@@ -58,6 +58,10 @@ body {
 	color: #697ec4;
 }
 
+#chat .userlist .count {
+	background: #2e3136;
+}
+
 #chat .count {
 	background: #2e3136;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.04);
