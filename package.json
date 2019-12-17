@@ -1,26 +1,25 @@
 {
-  "name": "thelounge-theme-solarized",
-  "version": "1.1.2",
-  "description": "A simple theme with Solarized colours",
+  "name": "thelounge-theme-discordapp",
+  "version": "0.0.1",
+  "description": "A discordapp like theme for thelounge",
   "main": "package.json",
   "thelounge": {
-    "name": "Solarized",
+    "name": "Discord",
     "type": "theme",
-    "css": "theme.css",
-    "themeColor": "#002b36"
+    "css": "theme.css"
   },
   "license": "MIT",
-  "homepage": "https://github.com/thelounge/thelounge-theme-solarized",
+  "homepage": "https://github.com/Minion3665/thelounge-theme-discordapp",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thelounge/thelounge-theme-solarized.git"
+    "url": "git+https://github.com/Minion3665/thelounge-theme-discordapp.git"
   },
   "keywords": [
     "thelounge",
     "thelounge-theme"
   ],
   "bugs": {
-    "url": "https://github.com/thelounge/thelounge-theme-solarized/issues"
+    "url": "https://github.com/Minion3665/thelounge-theme-discordapp/issues"
   },
   "devDependencies": {
     "stylelint": "^10.1.0",
