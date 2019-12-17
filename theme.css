@@ -64,12 +64,12 @@ textarea::placeholder {
 }
 
 #windows .header .title {
-    font-weight: 700;
-    font-size: 20px;
-    display: inline-block;
-    line-height: 200%;
-    text-align: center;
-    height: 100%;
+	font-weight: 700;
+	font-size: 20px;
+	display: inline-block;
+	line-height: 200%;
+	text-align: center;
+	height: 100%;
 }
 
 #sidebar .badge {
